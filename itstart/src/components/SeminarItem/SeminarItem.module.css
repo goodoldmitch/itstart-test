@@ -1,0 +1,24 @@
+.seminar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    border-radius: 40px;
+    padding: 20px;
+    margin-bottom: 40px;
+    transition: all 300ms ease-in-out;
+}
+
+.seminar:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    transform: scale(1.01);
+}
+
+.seminarImg{
+    max-width: 20%;
+}
+
+.seminarImg img{
+    width: 100%;
+    border-radius: 40px;
+}
